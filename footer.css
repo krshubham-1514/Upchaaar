@@ -1,0 +1,98 @@
+body
+{
+	margin:0;
+	padding:0;
+	
+}
+
+
+#footer-wraper
+{
+   display: grid;
+   grid-template-columns:20% 20% 20% 20% 20%;
+   height:275px;
+   width:100%;
+   background-color:#373737;
+   
+}
+#footer-wraper ul li
+{
+	color:#f2f2f2;
+	list-style:none;
+	color:white;
+	
+}
+#footer-wraper ul li a
+{
+    	
+   
+    font-family: 'Karla', sans-serif;
+	color:#f0f0f0;
+	list-style:none;
+    font-size:14px;
+	margin-top:4px;
+    text-decoration:none;
+}
+#footer-wraper ul li a:hover
+{
+    	text-decoration:underline;
+}
+#link-footer-topbrands
+{
+	position:relative;
+	
+}
+
+#link-footer-other 
+{
+	position:relative;
+	
+	
+}
+
+
+#link-footer-otc-category
+{
+	position:relative;
+	
+}
+
+#link-footer-other-otc-category
+{
+	position:relative;
+	
+}
+#link-footer-services
+{
+	position:relative;
+	
+}
+#footer-bootom
+{
+	display:grid;
+	grid-template-columns:3fr 1fr 1fr 1fr;
+	align-content: center;
+	background-color:#2c2b2b;
+	height:65px;
+	width:100%;
+	color:rgb(214, 210, 210);
+	font-family:lato;
+}
+#copyright
+{
+	width:250px;
+	align-self:end;
+	
+}
+#social-media-link-logo .logo-png
+{
+	display:inline-block;
+	text-align: center;
+	
+}
+#social-media-link-logo .logo-png:hover
+{
+	opacity:0.8;
+	cursor:pointer;
+	
+}

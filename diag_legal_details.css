@@ -1,0 +1,26 @@
+.diag_form
+{
+    max-width:60%;
+    border-right:1px solid rgb(211, 204, 204);
+}
+
+.diag_form ul
+{
+    list-style:none;
+    margin-left:10%;
+}
+.diag_form ul li
+{
+    margin-top:20px;
+}
+.diag_form ul li input:not(.radio){
+    height:40px;
+    width:220px;
+    border-radius:3px;
+    border:1px solid rgb(175, 174, 174);
+}
+.diag_form  input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 4px #9ecaed;
+}

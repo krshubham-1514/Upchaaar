@@ -1,0 +1,6 @@
+#doctor-list-chat
+{
+	background-color:orange;
+    display:grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}

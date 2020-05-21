@@ -1,0 +1,40 @@
+.address_form
+{
+   max-width:90%;
+   margin-left:5%;
+}
+.address_form input
+{
+    width:100%;
+    height:45px;
+    margin-top:20px;
+    border-radius:2px;
+    border:1px solid grey;
+    
+}
+.address_form table
+{
+    width:50%;
+    margin-left:10%;
+}
+.address_form textarea
+{
+    margin-top:20px;
+    width:100%;
+}
+.address_form .pin_mob
+{
+    width:60%;
+}
+.address_form .save_btn
+{
+    background-color:#cc324b;
+    border:0;
+    color:white;
+    cursor:pointer;
+}
+.address_form  input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}

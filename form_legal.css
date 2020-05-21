@@ -1,0 +1,44 @@
+/*SELLER REGISTRATION ACCOUNT */
+
+
+body{
+    font-family:roboto;
+    color:#383535;
+    
+}
+.form_legal_name
+{
+    margin:0 auto;
+    margin-top:125px;
+}
+#form_legal ul
+{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+#form_legal ul li:nth-child(1)
+{
+    margin-top:25px;
+}
+ .form_legal_inner
+{
+    margin-left:5%;
+    width:90%;
+    padding:5%;
+}
+.legal_btn
+{
+    height:40px;
+    width:80px;
+    border:0;
+    background-color:#cc324b;
+    color:white;
+    border-radius:2px;
+    cursor:pointer;
+}
+.form_legal_name
+{
+    border:1px solid #a09c9c;
+    width:60%;
+}

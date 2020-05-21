@@ -1,0 +1,214 @@
+.cart_page_single_item_container
+{
+    display:grid;
+    grid-template-rows:repeat(minmax(700px,auto),2);
+    grid-row-gap:50px;
+
+}
+.cart_page_single_item_container .product_image_details_section
+{
+    height:650px;
+    
+    background-color:white;
+
+}
+.cart_page_single_item_container .review_product
+{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    height:650px;
+    background-color:white;
+    color:#857f7f;
+    font-family:lato;
+    font-size:15px;
+    
+    
+}
+.cart_page_single_item_container .review_product .user_product_reviews
+{
+    border-top:2px solid #dcdedf;
+}
+.cart_page_single_item_container .review_product .product_info
+{
+    border:2px solid #dcdedf;
+}
+.cart_page_single_item_container .review_product h3{
+    color:#5f5d5d;
+    font-size:16px;
+}
+.cart_page_single_item_container .review_product .product_footer
+{
+    border:1px solid #ededed;
+}
+.cart_page_single_item_container   .product_image_details_section
+{   
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+   
+    align-items: center;
+    
+}
+.cart_page_single_item_container   .product_image_details_section div
+{
+    display:inline;
+    position:relative;
+}
+.cart_page_single_item_container   .product_image_details_section .product_image 
+{
+    position: relative;
+    width:900px;
+    height:inherit;
+}
+
+.cart_page_single_item_container   .product_image_details_section .product_image #prev_product_list_btn_cart
+{
+   position: absolute;
+   line-height:550px;
+   height:40px;
+   padding:10px;
+   margin:0 auto;
+   cursor:pointer;
+
+}
+.cart_page_single_item_container   .product_image_details_section .product_image #next_product_list_btn_cart
+{
+   
+   right:0;
+   position: absolute;
+   line-height:550px;
+   height:40px;
+   padding:10px;
+   margin:0 auto;
+   cursor:pointer;
+}
+.cart_page_single_item_container   .product_image_details_section .product_image a input
+{
+    height:40px;
+    width:40px;
+    border-radius:45px;
+    background-color:white;
+    border:1px solid #a09a9a;
+    opacity:0.5;
+}
+.cart_page_single_item_container   .product_image_details_section .product_image  img{
+    max-width:inherit;
+    position:absolute;
+    top:0%;
+    
+}
+.cart_page_single_item_container   .product_image_details_section .product_image 
+{
+    border:1px solid #dad5d5;
+    max-width:500px;
+    max-height:550px;
+    justify-self:center; 
+}
+
+
+/*================================================================================*/
+
+.cart_page_single_item_container   .product_image_details_section .product_image #dots-container_cart
+{
+   
+    position:absolute;
+    z-index:100;
+    bottom:2%;
+    margin-left:150px;
+    text-align:center;
+    width:200px;
+   
+    
+
+}
+.productimg{
+
+    display: none;
+    
+    }
+
+
+.dots_cart{
+
+    width: 13px;
+    
+    height: 13px;
+    
+    background: rgb(207, 204, 204);
+    
+    display: inline-block;
+    
+    border-radius: 50%;
+    
+    cursor: pointer;
+    
+    }
+    
+    .fade_cart{
+    
+    animation-name:fade;
+    animation-duration:1.5s;
+    
+    }
+    
+    @keyframes fade{
+    
+    from {opacity:0;}
+    
+    to {opacity: 1;}
+    
+    }
+    
+    
+    .active, .dots_cart:hover {
+    
+    background-color: rgb(185, 178, 178);
+    
+    }
+    
+
+
+
+/*==================================================================================*/
+.cart_page_single_item_container   .product_image_details_section .add_cart_details
+{
+    display:grid;
+    grid-template-rows: repeat(5);
+    grid-row-gap:5px;
+    position:relative;
+    height:320px;
+    width:300px;
+    border:2px solid #ececec;
+    padding:15px;
+    justify-self:center;
+    align-self: center; 
+    max-width:400px;
+    border-radius:3px;
+}
+
+.cart_page_single_item_container   .product_image_details_section .add_cart_details .delivery .pincode_user
+{
+    height:30px; width:120px;
+    border-radius:2px;
+    border:1px solid #e4e1e1;
+}
+#pin_btn
+{
+    height:34px; width:70px;
+    background-color:orange;
+    border:0;
+    color:#6e6a6a;
+    border-radius:3px;
+}
+
+.cart_page_single_item_container   .product_image_details_section .add_cart_details .cart_button
+{
+    background-color:#cc324b;
+    border:0;
+    color:white;
+    padding:15px;
+    cursor:pointer;
+    border-radius:4px;
+    
+}
+

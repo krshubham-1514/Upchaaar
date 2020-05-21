@@ -1,0 +1,189 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-color:#ededed;
+	font-family:roboto;
+}
+#headertop
+{
+
+	height:60px;
+	background-color:#474747;
+	position:fixed;
+	width:100%;
+	top:0%;
+	z-index:100000;
+
+	
+	
+}
+
+#headertop #category-header-shop
+{ 
+  display:inline-block;
+  max-width:auto;
+  position:relative;
+  top:0%;
+  left:1%;
+  cursor:pointer;
+  color:white;
+  font-family: 'Tajawal', sans-serif;	
+  
+}
+#headertop #category-header-shop   #catlog-header-view
+{
+	display:inline-block;
+	
+	max-height:inherit;
+}
+#headertop #category-header-shop #category_hidden_open_hover
+{
+	width:275px;
+	height:700px;
+	box-shadow:1px 1px 1px 1px #f1f1f1;
+}
+#headertop #category-header-shop ul
+{
+	list-style:none;
+}
+#headertop #category-header-shop #category_hidden_open_hover ul
+{
+	border-radius:3px;
+
+	
+}
+#headertop #category-header-shop #category_hidden_open_hover ul li{
+	padding:6px;
+	
+}
+#headertop #category-header-shop #category_hidden_open_hover ul li a{
+	border:0;
+	text-decoration:none;
+	font-weight: lighter;
+	font-family:Roboto;
+	font-size:14px;
+	color:#5f5959;
+}
+#headertop #category-header-shop #category_hidden_open_hover ul li:hover >a{
+	color:#e4871c;
+}
+#headertop #category-header-shop #category_hidden_open_hover ul li:hover{
+	color:rgb(228, 147, 41);
+	
+}
+#headertop #category-header-shop #category_hidden_open_hover ul li ul
+{
+	width:100%;
+	max-height:500px;
+}
+#headertop #category-header-shop #category_hidden_open_hover ul li ul li a{
+	border:0;
+	text-decoration:none;
+	font-weight: lighter;
+	font-family:Roboto;
+}
+#search-bar-hidden
+{
+	display:none;
+	position:absolute;
+
+	line-height:60px;
+	left:35%;
+
+}
+#search-bar-hidden #input-search-box-hidden
+{
+	height:40px;
+	width:270px;
+	border:0;
+	border-radius:3px;
+}
+#search-bar-hidden #hidden-search
+{
+height:42px;
+	width:75px;
+	border:0;
+	margin:0;
+     
+	border-radius:2px;
+	background-color:rgba(240, 50, 91, 0.932);
+	color:white;
+	cursor:pointer;
+	
+}
+#header-logo-png
+{
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	grid-column-gap:35px;
+	position:absolute;
+	top:1%;
+	right:15%;
+}
+#header-logo-png div img
+{
+	cursor:pointer;
+}
+#tagline1
+{
+	position:relative;
+	top:10%;
+	left:10%;
+	width:450px;
+	margin-left: 0 auto;
+
+}
+#tagline1 p
+{
+
+	font-family:lato;
+	font-size:28px;
+	font-weight: bolder;
+	color:white;
+}
+#search-medicines-bar
+{
+background-color:#292a2b;
+height:200px;
+width:100%;
+position:relative;
+
+}
+#search-medicine-container
+{
+	position:absolute;
+	top:20%;
+	left:35%;
+	width:600px;
+	margin:0 auto;
+
+}
+#input-search-box
+{
+	
+    height:45px;
+    width:350px;
+    border-radius:35px;
+	border:0;
+
+}
+#input-search-button
+{
+	border:0;
+	color:white;
+	height:45px;
+	width:100px;
+	border-radius:35px;
+	background-color:rgba(240, 50, 91, 0.932);
+	
+}
+#input-search-button:hover
+{
+	border:2px solid rgba(43, 104, 161, 0.932);
+	opacity:0.6;
+	color:white;
+	cursor:pointer;
+}
+
+

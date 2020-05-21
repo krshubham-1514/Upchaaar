@@ -1,0 +1,34 @@
+.form_doc
+{
+    border:1px solid #c9c0c0;
+    padding:3%;
+    max-width:50%;
+    margin:0 auto;
+}
+.form_doc form input{
+    height:40px;
+    width:35%;
+    border-radius:3px;
+    border:1px solid rgb(172, 163, 163);
+    
+}
+.form_doc form select{
+    height:40px;
+    width:35%;
+}
+.form_doc form textarea
+{
+    height:80px;
+    width:40%;
+    border-radius:3px;
+    border:1px solid rgb(172, 163, 163);
+}
+.form_doc ul
+{
+    list-style:none;
+    
+}
+.form_doc ul li
+{
+    margin-top:10px;
+}
